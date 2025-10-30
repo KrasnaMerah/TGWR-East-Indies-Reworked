@@ -1,0 +1,15 @@
+leader_traits = {
+
+	#################################################
+	# Dutch East Indies/Indonesian character traits #
+	#################################################
+
+	ratoe_adil = { #Tjokroaminoto
+		random = no
+
+		political_power_factor = 0.05
+		democratic_drift = 0.05
+		compliance_growth = 0.05
+		consumer_goods_factor = -0.1
+	}
+}

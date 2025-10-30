@@ -1,0 +1,183 @@
+characters = {
+	INS_a_w_frederik_idenburg = {
+		name = INS_a_w_frederik_idenburg
+		portraits = {
+			civilian = {
+				large = GFX_INS_frederik_idenburg
+			}
+		}
+		country_leader = {
+			ideology = oligarchism
+		}
+	}
+	INS_ernest_douwes_dekker = {
+		name = INS_ernest_douwes_dekker
+		portraits = {
+			civilian = {
+				large = GFX_INS_ernest_douwes_dekker
+			}
+			army = {
+				small = GFX_idea_INS_ernest_douwes_dekker
+			}
+		}
+		country_leader = {
+			ideology = anarchist_communism
+			traits = { anarchist_author }
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = INS_ernest_douwes_dekker
+			available = {
+				NOT = {
+					has_government = fascism
+				}
+			}
+			traits = {
+				transnational_anarchist 
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+	INS_tjokroaminoto = {
+		name = INS_tjokroaminoto
+		portraits = {
+			civilian = {
+				large = GFX_INS_tjokroaminoto
+			}
+			army = {
+				small = GFX_idea_INS_tjokroaminoto
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism
+			traits = { ratoe_adil }
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = INS_tjokroaminoto
+			available = {
+				NOT = {
+					has_government = fascism
+				}
+			}
+			traits = {
+				veteran_trade_unionist 
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+	INS_johan_paul = {
+		name = INS_johan_paul
+		portraits = {
+			civilian = {
+				large = GFX_INS_johan_paul
+			}
+		}
+		country_leader = {
+			ideology = oligarchism
+		}
+	}
+	INS_frits_van_daalen = {
+		name = INS_frits_van_daalen
+		portraits = {
+			army = {
+				small = GFX_idea_INS_gotfried_van_daalen
+				large = GFX_INS_gotfried_van_daalen
+			}
+		}
+		country_leader = {
+			ideology = stratocracy
+		}
+		field_marshal = {
+			traits = { trait_reckless harsh_leader logistics_wizard }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = INS_frits_van_daalen
+			allowed = {
+				original_tag = INS
+			}
+			available = {
+				has_government = neutrality
+			}
+			traits = {
+				army_chief_entrenchment_1 
+			}
+			ai_will_do  = {
+				factor  = 0.000
+			}
+		}
+	}
+	INS_johan_michielsen = {
+		name = INS_johan_michielsen
+		portraits = {
+			army = {
+				small = GFX_idea_INS_johan_michielsen
+				large = GFX_INS_johan_michielsen
+			}
+		}
+		corps_commander = {
+			traits = { logistics_wizard }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+		advisor = {
+			slot = high_command
+			idea_token = INS_johan_michielsen
+			ledger = army 
+			allowed = {
+				original_tag = INS
+			}
+			available = {
+				has_government = neutrality
+			}
+			traits = {
+				army_infantry_1 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	#Advisor
+
+	INS_tjipto_mangoenkoesoemo = {
+		name = INS_tjipto_mangoenkoesoemo
+		portraits = {
+			civilian = {
+				large = GFX_INS_tjipto_mangoenkoesoemo
+			}
+			army = {
+				small = GFX_idea_INS_tjipto_mangoenkoesoemo
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = INS_tjipto_mangoenkoesoemo
+			available = {
+				NOT = {
+					has_government = fascism
+				}
+			}
+			traits = {
+				leftist_intellectual 
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+}
