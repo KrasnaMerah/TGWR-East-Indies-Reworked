@@ -10,4 +10,4 @@ tags={
 	"Graphics"
 }
 name="TGWR - East Indies Reworked"
-supported_version="1.16.10"
+supported_version="1.16.*"
